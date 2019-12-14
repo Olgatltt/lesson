@@ -25,7 +25,7 @@ public class Notepad {
     }
 
     public void delete() {
-        array[array.length - 1] = null;
+        array[count] = null;
         count--;
     }
 
